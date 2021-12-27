@@ -180,13 +180,13 @@ export default function Home() {
             which is completely spam free
           </p>
           <div className="w-full relative p-4">
-            <div className="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 flex flex-col items-center justify-center space-y-10 w-full px-20">
+            <div className="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 flex flex-col items-center justify-center space-y-0 sm:space-y-5 md:space-y-10 w-full px-20">
               <p className="text-2xl break-all font-paragraph text-center text-dark-primary dark:text-slate-100 duration-300 transition-colors w-1/2 hidden lg:block">
                 Hello my name is Marcel! Im building free apps for people to use
                 and make their lives easier. Feel free to subscribe to my
                 newsletter which is completely spam free
               </p>
-              <div className="flex flex-col items-center justify-center sm:flex-row w-full space-y-2 sm:space-x-2 sm:space-y-0 sm:-mt-0">
+              <div className="flex flex-col items-center justify-center sm:flex-row w-full space-y-0 sm:space-x-2 sm:space-y-0 sm:-mt-0">
                 <TextInput
                   type="email"
                   placeholder="Your Email"
@@ -194,7 +194,7 @@ export default function Home() {
                 />
                 <PrimaryButton
                   styles={
-                    "text-2xl w-full sm:w-auto text-lg sm:text-xl py-1 sm:py-2"
+                    "text-2xl w-full sm:w-auto text-lg sm:text-xl py-1 sm:py-2 hidden sm:block"
                   }
                 >
                   🖖 Sign Up
@@ -215,6 +215,13 @@ export default function Home() {
               }`}
             ></div>
           </div>
+          <PrimaryButton
+            styles={
+              "text-2xl w-full sm:w-auto text-lg sm:text-xl py-1 sm:py-2 block sm:hidden"
+            }
+          >
+            🖖 Sign Up
+          </PrimaryButton>
           <p className="text-2xl break-all font-paragraph text-center text-dark-primary dark:text-slate-100 duration-300 mt-8 transition-colors block sm:hidden">
             *Disclaimer you will be sent news about version updates, new apps
             and news articles.
