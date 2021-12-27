@@ -12,10 +12,12 @@
 
 .header-bg-light {
   background-image: url("../../public/images/header_bg_light.svg");
+  transition: background-image 0.3s;
 }
 
 .header-bg-dark {
   background-image: url("../../public/images/header_bg_dark.svg");
+  transition: background-image 0.3s;
 }
 
 .header-wave-light {
@@ -24,5 +26,30 @@
 
 .header-wave-dark {
   background-image: url("../../public/images/header_wave_dark.svg");
+}
+
+.feature-wave-light {
+  background-image: url("../../public/images/feature_wave_light.svg");
+}
+
+.feature-wave-dark {
+  background-image: url("../../public/images/feature_wave_dark.svg");
+}
+
+.features-blob-light-1 {
+  background-image: url("../../public/images/features_blob_1.svg");
+}
+
+.newsletter-wave-light {
+  background-image: url("../../public/images/newsletter_wave_light.svg");
+}
+
+.newsletter-wave-dark {
+  background-image: url("../../public/images/newsletter_wave_dark.svg");
+}
+
+html {
+  transition-property: background-color, color;
+  transition-duration: 0.3s;
 }
 

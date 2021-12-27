@@ -9,3 +9,5 @@ export { default as SvgIcon } from "./icons/svgIcon";
 export { default as PrimaryTitle } from "./typography/primaryTitle";
 export { default as PrimaryButton } from "./buttons/primaryButton";
 export { default as UtilityButton } from "./buttons/utilityButton";
+export { default as FeatureCard } from "./cards/featureCard";
+export { default as TextInput } from "./form/textInput";

@@ -6,12 +6,14 @@ module.exports = {
       colors: {
         light: {
           primary: "#00AF91",
+
           secondary: "#007965",
           tertiary: "#F58634",
           quaternary: "#FFCC29",
         },
         dark: {
           primary: "#1A1D24",
+         
           secondary: "#222831",
           tertiary: "#F58634",
           quaternary: "#FFCC29",
