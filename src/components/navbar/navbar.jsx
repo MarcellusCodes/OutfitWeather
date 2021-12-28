@@ -17,7 +17,7 @@ function Navbar({ children }) {
       <div className="w-full bg-light-primary dark:bg-dark-primary transition-colors duration-300 px-4 sm:px-0">
         <div className="container mx-auto py-4 flex flex-row justify-between items-center">
           <Link href="/">
-            <div className="flex flex-row items-center cursor-pointer">
+            <div className="flex flex-col sm:flex-row items-center cursor-pointer">
               <Image
                 src="/images/branding.svg"
                 alt="App Icon"
