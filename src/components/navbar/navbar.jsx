@@ -1,7 +1,7 @@
 import React from "react";
 import Image from "next/image";
 import Link from "next/link";
-import { Moon, Sun, Menu, Cross, UtilityButton } from "../index";
+import { Moon, Sun, Menu, Cross, UtilityButton, Branding } from "../index";
 import useTheme from "../../utils/useTheme";
 import { changeTheme } from "../../features/theme/themeSlice";
 import { toggle } from "../../features/sidebar/sidebarSlice";

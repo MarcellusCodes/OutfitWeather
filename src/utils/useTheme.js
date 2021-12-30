@@ -10,7 +10,6 @@ const useTheme = () => {
     root.classList.add(theme);
     localStorage.setItem("theme", theme);
   }, [theme, colorTheme]);
-
   return { colorTheme, setTheme };
 };
 

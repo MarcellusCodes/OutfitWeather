@@ -1,11 +1,7 @@
 import React from "react";
 import { motion } from "framer-motion";
 import Image from "next/image";
-
-const pathMotion = {
-  initial: { pathLength: 0, scale: 0 },
-  animate: { pathLength: 1, scale: 1 },
-};
+import { PathMotion } from "../../constants/index";
 
 const imageMotion = {
   initial: { scale: 0 },
@@ -41,7 +37,7 @@ const FeatureCard = ({ feature }) => {
               strokeWidth={22.506}
               className="stroke-current text-light-primary dark:text-dark-tertiary transition-colors duration-300"
               strokeLinecap="round"
-              variants={pathMotion}
+              variants={PathMotion}
               transition={{ type: "spring", duration: 2, delay: 0.3 }}
             />
           </motion.svg>
@@ -79,7 +75,7 @@ const FeatureCard = ({ feature }) => {
               strokeWidth={25}
               className="stroke-current text-light-primary dark:text-dark-tertiary transition-colors duration-300"
               strokeLinecap="round"
-              variants={pathMotion}
+              variants={PathMotion}
               viewport={{ once: true }}
               transition={{ type: "spring", duration: 2, delay: 1 }}
             />
@@ -95,7 +91,7 @@ const FeatureCard = ({ feature }) => {
               strokeWidth={25}
               className="stroke-current text-light-primary dark:text-dark-tertiary transition-colors duration-300"
               strokeLinecap="round"
-              variants={pathMotion}
+              variants={PathMotion}
               viewport={{ once: true }}
               transition={{ type: "spring", duration: 2, delay: 1.3 }}
             />
@@ -111,7 +107,7 @@ const FeatureCard = ({ feature }) => {
               strokeWidth={25}
               className="stroke-current text-light-primary dark:text-dark-tertiary transition-colors duration-300"
               strokeLinecap="round"
-              variants={pathMotion}
+              variants={PathMotion}
               viewport={{ once: true }}
               transition={{ type: "spring", duration: 2, delay: 1.3 }}
             />

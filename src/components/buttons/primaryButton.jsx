@@ -8,7 +8,7 @@ const transition = {
   duration: 0.4,
 };
 
-const PrimaryButton = ({ children, styles }) => {
+const PrimaryButton = ({ children, styles, type }) => {
   const theme = useSelector((state) => state.theme.theme);
   const buttonMotion = {
     initial: {
@@ -46,6 +46,7 @@ const PrimaryButton = ({ children, styles }) => {
       animate="initial"
       transition={transition}
       variants={buttonMotion}
+      type={type}
       className={`relative py-2 px-6 font-paragraph z-20 rounded-md ${styles}`}
     >
       <span className="relative z-20">{children}</span>

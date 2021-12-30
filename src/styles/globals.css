@@ -48,8 +48,15 @@
   background-image: url("../../public/images/newsletter_wave_dark.svg");
 }
 
+.auth-blob-light {
+  background-image: url("../../public/images/auth_blob_light.svg");
+}
+
+.auth-blob-dark {
+  background-image: url("../../public/images/auth_blob_dark.svg");
+}
+
 html {
   transition-property: background-color, color;
   transition-duration: 0.3s;
 }
-
